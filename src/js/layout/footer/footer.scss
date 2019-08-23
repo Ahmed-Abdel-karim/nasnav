@@ -5,7 +5,7 @@
     padding-left: 15px;
     margin-top: 45px;
     .category-item {
-      font-size: 1.1rem;
+      font-size: 1rem;
       a {
         color: black;
       }
@@ -16,9 +16,10 @@
     background: #f6f8f9;
     padding: 25px;
     flex: 1;
+    margin: 25px 0;
     .title {
       margin-left: 15px;
-      font-size: 1.3rem;
+      font-size: 1rem;
     }
     .title-group {
       display: flex;

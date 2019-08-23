@@ -9,7 +9,7 @@ export default function CategoryList({ items }) {
     <div className="container">
       <SimpleGrid items={items} xs={4} sm={4} md={4} lg={2} xl={2}>
         {({ src, href }) => (
-          <div className="category-item">
+          <div className="category-item flex-center">
             <a href={href} className="round-box">
               <img src={src} alt="icons" width="75%" />
             </a>
