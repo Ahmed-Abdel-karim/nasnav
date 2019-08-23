@@ -1,0 +1,49 @@
+.footer {
+  font-family: 'Comfortaa';
+
+  .categories {
+    padding-left: 15px;
+    margin-top: 45px;
+    .category-item {
+      font-size: 1.1rem;
+      a {
+        color: black;
+      }
+    }
+  }
+
+  .find-store {
+    background: #f6f8f9;
+    padding: 25px;
+    flex: 1;
+    .title {
+      margin-left: 15px;
+      font-size: 1.3rem;
+    }
+    .title-group {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+
+  .nasnav {
+    display: flex;
+    align-items: baseline;
+    strong {
+      margin: 15px;
+      margin-left: 0;
+    }
+  }
+
+  .copy-write{
+    display: inline-block;
+    margin: 0 0 25px 0;
+  }
+
+  .paymant{
+    display: flex;
+    align-items: baseline;
+    margin: 0 0 25px 0;
+  }
+}

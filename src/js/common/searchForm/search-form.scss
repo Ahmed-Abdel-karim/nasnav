@@ -1,0 +1,22 @@
+.searchForm {
+  .btn-dropdown {
+    color: #0056a7;
+    border: 1px solid #ced4da;
+    padding: 15px;
+    border-radius: 5px 0px 0 5px;
+  }
+
+  .btn-search{
+    align-self: center;
+  }
+  input.mr-sm-2.form-control{
+    width: 110%;
+  }
+}
+
+
+@media only screen and (min-width: 800px) {
+  .btn-search{
+    max-width: 90px;
+  }
+}
